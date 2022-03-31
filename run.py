@@ -1,4 +1,4 @@
-from pssh.clients import SSHClient 
+from pssh.clients import ParallelSSHClient
 
 hosts = []
 while 1:
