@@ -16,4 +16,3 @@ while 1:
             print(line)
 
 
-
