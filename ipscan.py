@@ -52,6 +52,8 @@ def try_ip_range(ipString):
                 ip = next(iplist)
             except StopIteration:
                 return 0
+            if any([int(i) > 256 for i in ip.split('.')]):
+                continue
             p = bThread(target=ping, args=(ip,))
             p.start()
             s = datetime.now()
@@ -64,7 +66,6 @@ def try_ip_range(ipString):
                         ipstatus = False
                     else:
                         ipstatus = p.join()
-                    #print(f'{worker_id} {ip} : {ipstatus}')
                     if ipstatus:
                         r['active'].append(ip)
                     else:

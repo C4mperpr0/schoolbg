@@ -1,0 +1,11 @@
+--2022-04-04 12:41:41--  https://heavy.com/wp-content/uploads/2015/12/screenshot_2015-12-15_at_6-e1450221457481.jpg?quality=65
+Resolving heavy.com (heavy.com)... 192.0.66.32
+Connecting to heavy.com (heavy.com)|192.0.66.32|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15438 (15K) [image/jpeg]
+Saving to: ‘screenshot_2015-12-15_at_6-e1450221457481.jpg?quality=65’
+
+screenshot_2015-12-15_at_6-e1450221457481.jpg?qualit   0%[                                                                                                                    ]       0  --.-KB/s               screenshot_2015-12-15_at_6-e1450221457481.jpg?qualit 100%[===================================================================================================================>]  15,08K  --.-KB/s    in 0,002s  
+
+2022-04-04 12:41:41 (6,18 MB/s) - ‘screenshot_2015-12-15_at_6-e1450221457481.jpg?quality=65’ saved [15438/15438]
+

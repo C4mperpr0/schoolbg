@@ -7,3 +7,5 @@ sshpass -p advgauss ssh root@192.168.103.135 'systemctl suspend'
 export SSHPASS=ry3AvbWO0oupYX9HCMzp0Axx
 
 sshpass -e scp testfile.csv user@example.com:/uploads/
+
+# xfce4-terminal
