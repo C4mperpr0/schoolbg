@@ -1,0 +1,6 @@
+#!/bin/sh
+
+p=$(ls | grep -i -E ".png|.jpg" | shuf -n 1)
+
+
+	
